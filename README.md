@@ -36,7 +36,7 @@ console.log(err);
 ```
 
 Returns: An Error object containing
-```json
+```javascript
 {
   code: 'ENOENT',
   msg: 'A component of the path or prefix of path is not a directory.No such file or directory exists at this provided   path.',
