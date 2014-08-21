@@ -14,8 +14,8 @@ Parameters:
 Example: 
 
 <code>
-var errdetail = require('slstat');
-console.log(errdetail.getErrorFromNum(13).msg);
+var errdetail = require('slstat');\n
+console.log(errdetail.getErrorFromNum(13).msg);\n
 </code>
 
 Output: "Permission is denied for one of the directories in the path."
