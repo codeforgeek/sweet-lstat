@@ -6,7 +6,7 @@ An easier way to track LSTAT errors.
 npm install slstat
 
 #API
-getErrorFromNum(errno)
+-getErrorFromNum(errno)
 
 Parameters:
 {Number} errno The error number
@@ -20,7 +20,7 @@ console.log(errdetail.getErrorFromNum(13).msg);\n\n
 
 Output: "Permission is denied for one of the directories in the path."
 
-getErrorFromCode(code)
+-getErrorFromCode(code)
 
 Parameter:
 
