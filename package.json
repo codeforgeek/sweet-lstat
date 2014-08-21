@@ -1,0 +1,8 @@
+{
+  "name": "system-error",
+  "version": "1.0.1",
+  "dependencies": {
+    "slstat": "0.0.1",
+    "syserrno": "0.0.8"
+  }
+}
