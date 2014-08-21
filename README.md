@@ -12,9 +12,11 @@ Parameters:
 {Number} errno The error number
 
 Example:
+<code>
 var errdetail = require('slstat')
 console.log(errdetail.getErrorFromNum(13).msg);
 // outputs "Permission is denied for one of the directories in the path."
+</code>
 
 getErrorFromCode(code)
 
