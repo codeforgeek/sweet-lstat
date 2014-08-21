@@ -17,8 +17,8 @@ Example:
 ---------------------
 
 ```
-var errdetail = require('slstat');\n\n
-console.log(errdetail.getErrorFromNum(13).msg);\n\n
+var errdetail = require('slstat');
+console.log(errdetail.getErrorFromNum(13).msg);
 ```
 
 Output: "Permission is denied for one of the directories in the path."
