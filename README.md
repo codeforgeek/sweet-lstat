@@ -14,10 +14,11 @@ Parameters:
 Example: 
 
 <code>
-var errdetail = require('slstat')
+var errdetail = require('slstat');
 console.log(errdetail.getErrorFromNum(13).msg);
-// outputs "Permission is denied for one of the directories in the path."
 </code>
+
+Output: "Permission is denied for one of the directories in the path."
 
 getErrorFromCode(code)
 
@@ -27,7 +28,7 @@ Parameter:
 
 Example:
 <code>
-var errdetail = require('slstat')
+var errdetail = require('slstat');
 var err = errdetail.getErrorFromCode('ENOENT');
 console.log(err);
 </code>
