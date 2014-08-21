@@ -11,7 +11,8 @@ getErrorFromNum(errno)
 Parameters:
 {Number} errno The error number
 
-Example:
+Example: 
+
 <code>
 var errdetail = require('slstat')
 console.log(errdetail.getErrorFromNum(13).msg);
@@ -23,19 +24,22 @@ getErrorFromCode(code)
 Parameter:
 
 {String} The error code e.g 'ENOENT'
-Example:
 
+Example:
+<code>
 var errdetail = require('slstat')
 var err = errdetail.getErrorFromCode('ENOENT');
 console.log(err);
+</code>
 
 Returns: An Error object containing
-
+<code>
 {
   code: 'ENOENT',
-  msg: 'A component of the path or prefix of path is not a directory.No such file or directory exists at this provided path.',
+  msg: 'A component of the path or prefix of path is not a directory.No such file or directory exists at this provided   path.',
   errno: 2
 }
+</code>
 
 #Usage
 
