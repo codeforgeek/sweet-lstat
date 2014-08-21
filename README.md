@@ -2,7 +2,8 @@ sweet-lstat
 ===========
 An easier way to track LSTAT errors.
 
-#Install
+Install
+--------------------
 npm install slstat
 
 #API
@@ -12,6 +13,7 @@ Parameters:
 {Number} errno The error number
 
 Example: 
+---------------------
 
 <code>
 var errdetail = require('slstat');\n\n
